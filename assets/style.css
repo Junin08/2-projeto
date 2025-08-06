@@ -4,7 +4,6 @@
     --card-back-color: #00F4BF;
 }
 
-
 body {
     background: url('img/bg-desktop.webp');
     font-family: Bai Jamjuree;
@@ -39,9 +38,20 @@ display: flex;
     font-size: 1vw;
 }
 
+.cartao_conteudo p {
+    margin-top: 1rem;
+    padding: 2rem;
+}
 
+.cartao_conteudo__pergunta p {
+    color: var(--text-color);
+    font-weight: 500;
+}
 
-
+.cartao_conteudo__pergunta p{
+    color: var(--card-back-color);
+    font-weight: 700;
+}
 
 footer {
     background-color: black;
